@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\manbo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Manbo.csproj|d:\\manbo\\manbocode\\patch\\manboanimationpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Manbo.csproj|solutionrelative:manbocode\\patch\\manboanimationpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Manbo.csproj|d:\\manbo\\manbo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Manbo.csproj|solutionrelative:manbo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Manbo.csproj|d:\\manbo\\manbocode\\charaters\\manbo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Manbo.csproj|solutionrelative:manbocode\\charaters\\manbo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Manbo.csproj|d:\\manbo\\manbo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Manbo.csproj|solutionrelative:manbo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Manbo.csproj|d:\\manbo\\manbocode\\cards\\basic\\manboblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Manbo.csproj|solutionrelative:manbocode\\cards\\basic\\manboblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Manbo.csproj|d:\\manbo\\manbocode\\cards\\manbocard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Manbo.csproj|solutionrelative:manbocode\\cards\\manbocard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Manbo.csproj|d:\\manbo\\manbocode\\cards\\basic\\manboattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Manbo.csproj|solutionrelative:manbocode\\cards\\basic\\manboattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Manbo.csproj|d:\\manbo\\manbocode\\cards\\basic\\manboblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Manbo.csproj|solutionrelative:manbocode\\cards\\basic\\manboblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Manbo.csproj|d:\\manbo\\manbo\\mainfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Manbo.csproj|d:\\manbo\\manbocode\\extensions\\stringextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Manbo.csproj|solutionrelative:manbocode\\extensions\\stringextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Manbo.csproj|d:\\manbo\\manbocode\\cards\\manbocard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Manbo.csproj|solutionrelative:manbocode\\cards\\manbocard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,21 +54,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ManboAnimationPatch.cs",
-              "DocumentMoniker": "D:\\manbo\\ManboCode\\Patch\\ManboAnimationPatch.cs",
-              "RelativeDocumentMoniker": "ManboCode\\Patch\\ManboAnimationPatch.cs",
-              "ToolTip": "D:\\manbo\\ManboCode\\Patch\\ManboAnimationPatch.cs",
-              "RelativeToolTip": "ManboCode\\Patch\\ManboAnimationPatch.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T13:13:05.596Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
@@ -115,19 +98,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Manbo.csproj",
               "DocumentMoniker": "D:\\manbo\\Manbo.csproj",
               "RelativeDocumentMoniker": "Manbo.csproj",
-              "ToolTip": "D:\\manbo\\Manbo.csproj",
-              "RelativeToolTip": "Manbo.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAiAAAAAAAAAA==",
+              "ToolTip": "D:\\manbo\\Manbo.csproj*",
+              "RelativeToolTip": "Manbo.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-30T11:38:25.699Z"
+              "WhenOpened": "2026-03-30T11:38:25.699Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ManboBlock.cs",
               "DocumentMoniker": "D:\\manbo\\ManboCode\\Cards\\Basic\\ManboBlock.cs",
               "RelativeDocumentMoniker": "ManboCode\\Cards\\Basic\\ManboBlock.cs",
@@ -139,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "ManboAttack.cs",
               "DocumentMoniker": "D:\\manbo\\ManboCode\\Cards\\Basic\\ManboAttack.cs",
               "RelativeDocumentMoniker": "ManboCode\\Cards\\Basic\\ManboAttack.cs",
@@ -147,19 +131,21 @@
               "RelativeToolTip": "ManboCode\\Cards\\Basic\\ManboAttack.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwBsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T11:25:39.468Z"
+              "WhenOpened": "2026-03-30T11:25:39.468Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "ManboCard.cs",
               "DocumentMoniker": "D:\\manbo\\ManboCode\\Cards\\ManboCard.cs",
               "RelativeDocumentMoniker": "ManboCode\\Cards\\ManboCard.cs",
               "ToolTip": "D:\\manbo\\ManboCode\\Cards\\ManboCard.cs",
               "RelativeToolTip": "ManboCode\\Cards\\ManboCard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T11:21:40.568Z"
+              "WhenOpened": "2026-03-30T11:21:40.568Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -181,7 +167,7 @@
               "RelativeDocumentMoniker": "ManboCode\\Charaters\\Manbo.cs",
               "ToolTip": "D:\\manbo\\ManboCode\\Charaters\\Manbo.cs",
               "RelativeToolTip": "ManboCode\\Charaters\\Manbo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-30T11:17:44.721Z",
               "EditorCaption": ""
@@ -195,7 +181,8 @@
               "ToolTip": "D:\\manbo\\Manbo.csproj",
               "RelativeToolTip": "Manbo.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-30T11:14:00.644Z"
+              "WhenOpened": "2026-03-30T11:14:00.644Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

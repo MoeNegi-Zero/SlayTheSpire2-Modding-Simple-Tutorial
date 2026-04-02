@@ -1,6 +1,0 @@
-{
-  "MOENEGIMOD-MANBO_ATTACK.description": "造成{Damage:diff()}点伤害",
-  "MOENEGIMOD-MANBO_ATTACK.title": "曼波打击",
-  "MOENEGIMOD-MANBO_BLOCK.description": "获得{Block:diff()}点防御",
-  "MOENEGIMOD-MANBO_BLOCK.title": "曼波防御"
-}
