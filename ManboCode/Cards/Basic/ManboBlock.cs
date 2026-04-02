@@ -15,20 +15,20 @@ using System.Threading.Tasks;
 namespace MoeNegiMod.Manbo.Cards;
 
 public class ManboBlock() : ManboCard(1,
-    CardType.Skill, CardRarity.Basic,
-    TargetType.Self)
+	CardType.Skill, CardRarity.Basic,
+	TargetType.Self)
 {
-    protected override HashSet<CardTag> CanonicalTags => [CardTag.Defend];
-    protected override IEnumerable<DynamicVar> CanonicalVars => [new BlockVar(5, ValueProp.Move)];
+	protected override HashSet<CardTag> CanonicalTags => [CardTag.Defend];
+	protected override IEnumerable<DynamicVar> CanonicalVars => [new BlockVar(5, ValueProp.Move)];
 
 
-    protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
-    {
-        await CommonActions.CardBlock(this, cardPlay);
-    }
+	protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
+	{
+		await CommonActions.CardBlock(this, cardPlay);
+	}
 
-    protected override void OnUpgrade()
-    {
-        DynamicVars.Block.UpgradeValueBy(2m);
-    }
+	protected override void OnUpgrade()
+	{
+		DynamicVars.Block.UpgradeValueBy(2m);
+	}
 }

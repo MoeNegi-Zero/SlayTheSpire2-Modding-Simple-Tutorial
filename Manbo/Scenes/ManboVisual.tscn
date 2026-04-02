@@ -1,0 +1,142 @@
+[gd_scene load_steps=25 format=3 uid="uid://dbth1ve3w8fyc"]
+
+[ext_resource type="Texture2D" uid="uid://ctvx3kq3s45im" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_2.png" id="1_apwhx"]
+[ext_resource type="Texture2D" uid="uid://csw52ucs3rnlk" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_3.png" id="2_c6q57"]
+[ext_resource type="Texture2D" uid="uid://cw8jm2etsitd7" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_4.png" id="3_ho0u1"]
+[ext_resource type="Texture2D" uid="uid://dtm4olocxou5y" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_5.png" id="4_7xd7q"]
+[ext_resource type="Texture2D" uid="uid://bnjiwgqd15cch" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_6.png" id="5_sxh03"]
+[ext_resource type="Texture2D" uid="uid://bdy3fvqruf7xr" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_7.png" id="6_e64ct"]
+[ext_resource type="Texture2D" uid="uid://dpftlcnprqxak" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_8.png" id="7_6wdrq"]
+[ext_resource type="Texture2D" uid="uid://b4jkoj0xy0kye" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_9.png" id="8_lp8v5"]
+[ext_resource type="Texture2D" uid="uid://3i1md6gulyx8" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_10.png" id="9_fa161"]
+[ext_resource type="Texture2D" uid="uid://dlutpgu1ydy3n" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_11.png" id="10_cm756"]
+[ext_resource type="Texture2D" uid="uid://dvjopoqxk5psg" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_12.png" id="11_huo2l"]
+[ext_resource type="Texture2D" uid="uid://dts1qhsysn8yw" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_13.png" id="12_etlta"]
+[ext_resource type="Texture2D" uid="uid://dusnstocqv5jv" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_14.png" id="13_fjix1"]
+[ext_resource type="Texture2D" uid="uid://d07n1ktdgt4wr" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_15.png" id="14_uao8n"]
+[ext_resource type="Texture2D" uid="uid://b6hbpdwl55piq" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_16.png" id="15_kr8rr"]
+[ext_resource type="Texture2D" uid="uid://btigijctomtfd" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_17.png" id="16_005ao"]
+[ext_resource type="Texture2D" uid="uid://cf57fyk4natmx" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_18.png" id="17_abaum"]
+[ext_resource type="Texture2D" uid="uid://biaku0of7q0dd" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_19.png" id="18_px375"]
+[ext_resource type="Texture2D" uid="uid://d0hrf3fvysauy" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_20.png" id="19_hdua2"]
+[ext_resource type="Texture2D" uid="uid://d41shwsuw8ys" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_21.png" id="20_sgd1y"]
+[ext_resource type="Texture2D" uid="uid://dbdbegjsq8s40" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_22.png" id="21_0506u"]
+[ext_resource type="Texture2D" uid="uid://btjkx5m08fadx" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_23.png" id="22_jw1tv"]
+[ext_resource type="Texture2D" uid="uid://brgunek2uect0" path="res://Manbo/mod_image.png" id="23_ho0u1"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_2epo5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_apwhx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_c6q57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_ho0u1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_7xd7q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_sxh03")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_e64ct")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_6wdrq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_lp8v5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_fa161")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_cm756")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_huo2l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_etlta")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_fjix1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_uao8n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_kr8rr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_005ao")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_abaum")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_px375")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_hdua2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_sgd1y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_0506u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_jw1tv")
+}],
+"loop": false,
+"name": &"Attack",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.5,
+"texture": ExtResource("23_ho0u1")
+}],
+"loop": false,
+"name": &"Hit",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_apwhx")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 1.0
+}]
+
+[node name="Manbo" type="Node2D"]
+metadata/_edit_group_ = true
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-2, -173)
+scale = Vector2(0.2777778, 0.2777778)
+sprite_frames = SubResource("SpriteFrames_2epo5")
+animation = &"Idle"
+autoplay = "Idle"
+
+[node name="Bounds" type="Control" parent="."]
+unique_name_in_owner = true
+layout_mode = 3
+anchors_preset = 0
+offset_left = -121.0
+offset_top = -280.0
+offset_right = 121.0
+mouse_filter = 2
+
+[node name="CenterPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(0, -165)
+
+[node name="IntentPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(20, -351)
