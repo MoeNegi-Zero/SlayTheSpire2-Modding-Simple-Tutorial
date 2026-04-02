@@ -1,0 +1,16 @@
+{
+  "MOENEGIMOD-MANBO.title": "曼波",
+  "MOENEGIMOD-MANBO.titleObject": "曼波",
+  "MOENEGIMOD-MANBO.description": "お祭りマンボ",
+  "MOENEGIMOD-MANBO.pronounObject": "她",
+  "MOENEGIMOD-MANBO.possessiveAdjective": "她的",
+  "MOENEGIMOD-MANBO.pronounPossessive": "她的",
+  "MOENEGIMOD-MANBO.pronounSubject": "她",
+  "MOENEGIMOD-MANBO.cardsModifierTitle": "Manbo Cards",
+  "MOENEGIMOD-MANBO.cardsModifierDescription": "Manbo的卡牌将出现在商店与奖励中",
+  "MOENEGIMOD-MANBO.aromaPrinciple": "[sine][pink]曼波[/pink][/sine]",
+  "MOENEGIMOD-MANBO.eventDeathPrevention": "曼波...曼波...",
+  "MOENEGIMOD-MANBO.banter.alive.endTurnPing": "曼波叫你快一点...尼尔龙马...",
+  "MOENEGIMOD-MANBO.banter.dead.endTurnPing": "曼波...",
+  "MOENEGIMOD-MANBO.goldMonologue": "[sine]金闪闪的哈基米...[/sine]..."
+}
