@@ -21,9 +21,9 @@ public abstract class ManboCard(int cost, CardType type, CardRarity rarity, Targ
 	{
 		get
 		{
-			var path = $"{Id.Entry.RemovePrefix().ToLowerInvariant()}.png".BigCardImagePath();
+			var path = $"{Id.Entry.RemovePrefix().ToLowerInvariant()}.png".CardImagePath();
 			Log.Info(">>>[ManboMod]CardPath=" + path, 2);
-			return ResourceLoader.Exists(path) ? path : "card.png".BigCardImagePath();
+			return ResourceLoader.Exists(path) ? path : "card.png".CardImagePath();
 		}
 	}
 
@@ -37,7 +37,7 @@ public abstract class ManboCard(int cost, CardType type, CardRarity rarity, Targ
 		get
 		{
 			var path = $"{Id.Entry.RemovePrefix().ToLowerInvariant()}.png".CardImagePath();
-			Log.Info(">>>[SelphinaMod]CardPath=" + path, 2);
+			Log.Info(">>>[ManboMod]CardPath=" + path, 2);
 			return ResourceLoader.Exists(path) ? path : "card.png".CardImagePath();
 		}
 	}
@@ -47,9 +47,9 @@ public abstract class ManboCard(int cost, CardType type, CardRarity rarity, Targ
 	{
 		get
 		{
-			var path = $"Beta/{Id.Entry.RemovePrefix().ToLowerInvariant()}.png".CardImagePath();
-			Log.Info(">>>[SelphinaMod]CardPath=" + path, 2);
-			return ResourceLoader.Exists(path) ? path : "Beta/card.png".CardImagePath();
+			var path = $"{Id.Entry.RemovePrefix().ToLowerInvariant()}.png".CardImagePath();
+			Log.Info(">>>[ManboMod]CardPath=" + path, 2);
+			return ResourceLoader.Exists(path) ? path : "card.png".CardImagePath();
 		}
 	}
 }

@@ -1,97 +1,97 @@
 [gd_scene load_steps=25 format=3 uid="uid://dbth1ve3w8fyc"]
 
-[ext_resource type="Texture2D" uid="uid://ctvx3kq3s45im" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_2.png" id="1_apwhx"]
-[ext_resource type="Texture2D" uid="uid://csw52ucs3rnlk" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_3.png" id="2_c6q57"]
-[ext_resource type="Texture2D" uid="uid://cw8jm2etsitd7" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_4.png" id="3_ho0u1"]
-[ext_resource type="Texture2D" uid="uid://dtm4olocxou5y" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_5.png" id="4_7xd7q"]
-[ext_resource type="Texture2D" uid="uid://bnjiwgqd15cch" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_6.png" id="5_sxh03"]
-[ext_resource type="Texture2D" uid="uid://bdy3fvqruf7xr" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_7.png" id="6_e64ct"]
-[ext_resource type="Texture2D" uid="uid://dpftlcnprqxak" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_8.png" id="7_6wdrq"]
-[ext_resource type="Texture2D" uid="uid://b4jkoj0xy0kye" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_9.png" id="8_lp8v5"]
-[ext_resource type="Texture2D" uid="uid://3i1md6gulyx8" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_10.png" id="9_fa161"]
-[ext_resource type="Texture2D" uid="uid://dlutpgu1ydy3n" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_11.png" id="10_cm756"]
-[ext_resource type="Texture2D" uid="uid://dvjopoqxk5psg" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_12.png" id="11_huo2l"]
-[ext_resource type="Texture2D" uid="uid://dts1qhsysn8yw" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_13.png" id="12_etlta"]
-[ext_resource type="Texture2D" uid="uid://dusnstocqv5jv" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_14.png" id="13_fjix1"]
-[ext_resource type="Texture2D" uid="uid://d07n1ktdgt4wr" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_15.png" id="14_uao8n"]
-[ext_resource type="Texture2D" uid="uid://b6hbpdwl55piq" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_16.png" id="15_kr8rr"]
-[ext_resource type="Texture2D" uid="uid://btigijctomtfd" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_17.png" id="16_005ao"]
-[ext_resource type="Texture2D" uid="uid://cf57fyk4natmx" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_18.png" id="17_abaum"]
-[ext_resource type="Texture2D" uid="uid://biaku0of7q0dd" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_19.png" id="18_px375"]
-[ext_resource type="Texture2D" uid="uid://d0hrf3fvysauy" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_20.png" id="19_hdua2"]
-[ext_resource type="Texture2D" uid="uid://d41shwsuw8ys" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_21.png" id="20_sgd1y"]
-[ext_resource type="Texture2D" uid="uid://dbdbegjsq8s40" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_22.png" id="21_0506u"]
-[ext_resource type="Texture2D" uid="uid://btjkx5m08fadx" path="res://Manbo/Images/Visual/生成2D游戏攻击动画视频_23.png" id="22_jw1tv"]
+[ext_resource type="Texture2D" uid="uid://bfx378cd277uu" path="res://Manbo/Images/Visual/ManboAttack (1).png" id="1_ho0u1"]
+[ext_resource type="Texture2D" uid="uid://dkqytd10gt3hi" path="res://Manbo/Images/Visual/ManboAttack (2).png" id="2_7xd7q"]
+[ext_resource type="Texture2D" uid="uid://dflquiurfnu1s" path="res://Manbo/Images/Visual/ManboAttack (3).png" id="3_sxh03"]
+[ext_resource type="Texture2D" uid="uid://c15xiv6j4d1ol" path="res://Manbo/Images/Visual/ManboAttack (4).png" id="4_e64ct"]
+[ext_resource type="Texture2D" uid="uid://dvgwxd28no114" path="res://Manbo/Images/Visual/ManboAttack (5).png" id="5_6wdrq"]
+[ext_resource type="Texture2D" uid="uid://h5nlyq32w1cs" path="res://Manbo/Images/Visual/ManboAttack (6).png" id="6_lp8v5"]
+[ext_resource type="Texture2D" uid="uid://30ypo70q0ubu" path="res://Manbo/Images/Visual/ManboAttack (7).png" id="7_fa161"]
+[ext_resource type="Texture2D" uid="uid://dg0sgl58strgy" path="res://Manbo/Images/Visual/ManboAttack (8).png" id="8_cm756"]
+[ext_resource type="Texture2D" uid="uid://d1rlxtuu4umer" path="res://Manbo/Images/Visual/ManboAttack (9).png" id="9_huo2l"]
+[ext_resource type="Texture2D" uid="uid://ch57q760rriuh" path="res://Manbo/Images/Visual/ManboAttack (10).png" id="10_etlta"]
+[ext_resource type="Texture2D" uid="uid://3qxdvbg1p68d" path="res://Manbo/Images/Visual/ManboAttack (11).png" id="11_fjix1"]
+[ext_resource type="Texture2D" uid="uid://120l54qogog" path="res://Manbo/Images/Visual/ManboAttack (12).png" id="12_uao8n"]
+[ext_resource type="Texture2D" uid="uid://23kk72xsw8fo" path="res://Manbo/Images/Visual/ManboAttack (13).png" id="13_kr8rr"]
+[ext_resource type="Texture2D" uid="uid://pltklbbs4juf" path="res://Manbo/Images/Visual/ManboAttack (14).png" id="14_005ao"]
+[ext_resource type="Texture2D" uid="uid://bu52nigp1fk1q" path="res://Manbo/Images/Visual/ManboAttack (15).png" id="15_abaum"]
+[ext_resource type="Texture2D" uid="uid://b1pf1xfasne2r" path="res://Manbo/Images/Visual/ManboAttack (16).png" id="16_px375"]
+[ext_resource type="Texture2D" uid="uid://crtp70n1cdq0b" path="res://Manbo/Images/Visual/ManboAttack (17).png" id="17_hdua2"]
+[ext_resource type="Texture2D" uid="uid://dbktihfpk4evt" path="res://Manbo/Images/Visual/ManboAttack (18).png" id="18_sgd1y"]
+[ext_resource type="Texture2D" uid="uid://cn78blh50telh" path="res://Manbo/Images/Visual/ManboAttack (19).png" id="19_0506u"]
+[ext_resource type="Texture2D" uid="uid://d233fejri1pfn" path="res://Manbo/Images/Visual/ManboAttack (20).png" id="20_jw1tv"]
+[ext_resource type="Texture2D" uid="uid://cyuq74l3seugp" path="res://Manbo/Images/Visual/ManboAttack (21).png" id="21_2epo5"]
+[ext_resource type="Texture2D" uid="uid://7wuesnsmhpsp" path="res://Manbo/Images/Visual/ManboAttack (22).png" id="22_xtxr5"]
 [ext_resource type="Texture2D" uid="uid://brgunek2uect0" path="res://Manbo/mod_image.png" id="23_ho0u1"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_2epo5"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("1_apwhx")
+"texture": ExtResource("1_ho0u1")
 }, {
 "duration": 1.0,
-"texture": ExtResource("2_c6q57")
+"texture": ExtResource("2_7xd7q")
 }, {
 "duration": 1.0,
-"texture": ExtResource("3_ho0u1")
+"texture": ExtResource("3_sxh03")
 }, {
 "duration": 1.0,
-"texture": ExtResource("4_7xd7q")
+"texture": ExtResource("4_e64ct")
 }, {
 "duration": 1.0,
-"texture": ExtResource("5_sxh03")
+"texture": ExtResource("5_6wdrq")
 }, {
 "duration": 1.0,
-"texture": ExtResource("6_e64ct")
+"texture": ExtResource("6_lp8v5")
 }, {
 "duration": 1.0,
-"texture": ExtResource("7_6wdrq")
+"texture": ExtResource("7_fa161")
 }, {
 "duration": 1.0,
-"texture": ExtResource("8_lp8v5")
+"texture": ExtResource("8_cm756")
 }, {
 "duration": 1.0,
-"texture": ExtResource("9_fa161")
+"texture": ExtResource("9_huo2l")
 }, {
 "duration": 1.0,
-"texture": ExtResource("10_cm756")
+"texture": ExtResource("10_etlta")
 }, {
 "duration": 1.0,
-"texture": ExtResource("11_huo2l")
+"texture": ExtResource("11_fjix1")
 }, {
 "duration": 1.0,
-"texture": ExtResource("12_etlta")
+"texture": ExtResource("12_uao8n")
 }, {
 "duration": 1.0,
-"texture": ExtResource("13_fjix1")
+"texture": ExtResource("13_kr8rr")
 }, {
 "duration": 1.0,
-"texture": ExtResource("14_uao8n")
+"texture": ExtResource("14_005ao")
 }, {
 "duration": 1.0,
-"texture": ExtResource("15_kr8rr")
+"texture": ExtResource("15_abaum")
 }, {
 "duration": 1.0,
-"texture": ExtResource("16_005ao")
+"texture": ExtResource("16_px375")
 }, {
 "duration": 1.0,
-"texture": ExtResource("17_abaum")
+"texture": ExtResource("17_hdua2")
 }, {
 "duration": 1.0,
-"texture": ExtResource("18_px375")
+"texture": ExtResource("18_sgd1y")
 }, {
 "duration": 1.0,
-"texture": ExtResource("19_hdua2")
+"texture": ExtResource("19_0506u")
 }, {
 "duration": 1.0,
-"texture": ExtResource("20_sgd1y")
+"texture": ExtResource("20_jw1tv")
 }, {
 "duration": 1.0,
-"texture": ExtResource("21_0506u")
+"texture": ExtResource("21_2epo5")
 }, {
 "duration": 1.0,
-"texture": ExtResource("22_jw1tv")
+"texture": ExtResource("22_xtxr5")
 }],
 "loop": false,
 "name": &"Attack",
@@ -107,7 +107,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("1_apwhx")
+"texture": ExtResource("1_ho0u1")
 }],
 "loop": true,
 "name": &"Idle",
@@ -121,7 +121,7 @@ metadata/_edit_group_ = true
 position = Vector2(-2, -173)
 scale = Vector2(0.2777778, 0.2777778)
 sprite_frames = SubResource("SpriteFrames_2epo5")
-animation = &"Idle"
+animation = &"Attack"
 autoplay = "Idle"
 
 [node name="Bounds" type="Control" parent="."]

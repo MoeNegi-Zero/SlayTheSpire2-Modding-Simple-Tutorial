@@ -2,5 +2,9 @@
   "MOENEGIMOD-MANBO_ATTACK.description": "造成{Damage:diff()}点伤害",
   "MOENEGIMOD-MANBO_ATTACK.title": "曼波打击",
   "MOENEGIMOD-MANBO_BLOCK.description": "获得{Block:diff()}点防御",
-  "MOENEGIMOD-MANBO_BLOCK.title": "曼波防御"
+  "MOENEGIMOD-MANBO_BLOCK.title": "曼波防御",
+  "MOENEGIMOD-MANBO_RELLY.description": "消耗{RellyPower:diff()}层傻了吧唧，获得{StrengthPower:diff()}点力量",
+  "MOENEGIMOD-MANBO_RELLY.title": "重振",
+  "MOENEGIMOD-MANBO_POWER_UP.description": "获得{RellyPower:diff()}层傻了吧唧",
+  "MOENEGIMOD-MANBO_POWER_UP.title": "咕咕嘎嘎"
 }

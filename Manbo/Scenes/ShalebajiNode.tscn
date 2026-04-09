@@ -1,0 +1,51 @@
+[gd_scene load_steps=2 format=3 uid="uid://yuuo4och7kse"]
+
+[ext_resource type="Texture2D" uid="uid://c6nbt3tp73b57" path="res://Manbo/Images/Relics/manbo_toy.png" id="1_muak6"]
+
+[node name="ShalebajiNode" type="Control"]
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_horizontal_guides_ = [64.0]
+metadata/_edit_vertical_guides_ = [64.0]
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 28.0
+offset_top = -58.0
+offset_right = 68.0
+offset_bottom = -13.0
+theme_override_colors/font_outline_color = Color(0.38039216, 0.35686275, 0.43137255, 1)
+theme_override_constants/shadow_offset_x = 4
+theme_override_constants/shadow_offset_y = 4
+theme_override_constants/outline_size = 16
+theme_override_font_sizes/font_size = 32
+text = "X"
+
+[node name="ManboToy" type="Sprite2D" parent="."]
+position = Vector2(-3.000001, -41)
+scale = Vector2(0.054945055, 0.05494503)
+texture = ExtResource("1_muak6")
+
+[node name="ShalebajiValue" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 59.0
+offset_top = -59.0
+offset_right = 123.24138
+offset_bottom = -13.0
+theme_override_colors/font_outline_color = Color(0.38095063, 0.35589287, 0.43288234, 1)
+theme_override_constants/shadow_offset_x = 4
+theme_override_constants/shadow_offset_y = 4
+theme_override_constants/outline_size = 16
+theme_override_font_sizes/normal_font_size = 32
+theme_override_font_sizes/bold_font_size = 32
+theme_override_font_sizes/bold_italics_font_size = 32
+theme_override_font_sizes/italics_font_size = 32
+theme_override_font_sizes/mono_font_size = 32
+bbcode_enabled = true
+text = "0"
+vertical_alignment = 1
