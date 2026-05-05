@@ -24,7 +24,9 @@
     <Folder Include="Manbo\Images\Charui\" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Alchyr.Sts2.ModAnalyzers" Version="0.1.6" />
-	<AdditionalFiles Include="Manbo\localization/**/*.json" />
+	<AdditionalFiles Include="Manbo\localization\**\*.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Alchyr.Sts2.ModAnalyzers" Version="0.1.9" />
   </ItemGroup>
 </Project>

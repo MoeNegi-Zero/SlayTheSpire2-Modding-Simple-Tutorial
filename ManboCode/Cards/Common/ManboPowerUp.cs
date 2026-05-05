@@ -15,6 +15,7 @@ using System.Threading.Tasks;
 
 namespace MoeNegiMod.Manbo.Cards;
 
+
 public class ManboPowerUp() : ManboCard(1,
 	CardType.Power, CardRarity.Common,
 	TargetType.Self)

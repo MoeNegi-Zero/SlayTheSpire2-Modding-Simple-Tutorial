@@ -5,6 +5,7 @@ using MegaCrit.Sts2.Core.Logging;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Nodes.Combat;
 using MegaCrit.Sts2.Core.Nodes.RestSite;
+using MegaCrit.Sts2.Core.Nodes.Screens.GameOverScreen;
 using MoeNegiMod.Manbo.Character;
 using static Godot.Node;
 using static Godot.PackedScene;
@@ -60,5 +61,18 @@ public static class ManboAnimationPatch
 		{
 			anim.Play("Idle");
 		}), 4u);
+	}
+}
+
+[HarmonyPatch(typeof(NGameOverScreen), "MoveCreaturesToDifferentLayerAndDisableUi")]
+public static class ManboGameOverPatch
+{
+	public static void Postfix(NGameOverScreen __instance)
+	{
+		var _creatureContainer = __instance.GetNodeOrNull<Control>("%CreatureContainer");
+		foreach(Node2D visual in _creatureContainer.GetChildren())
+		{
+			if (visual.Name.ToString().StartsWith("Manbo")) visual.GetNodeOrNull<AnimatedSprite2D>("AnimatedSprite2D").Play("Dead");
+		}
 	}
 }

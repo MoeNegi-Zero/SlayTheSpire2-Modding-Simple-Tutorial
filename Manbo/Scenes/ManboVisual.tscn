@@ -1,4 +1,4 @@
-[gd_scene load_steps=25 format=3 uid="uid://dbth1ve3w8fyc"]
+[gd_scene load_steps=26 format=3 uid="uid://dbth1ve3w8fyc"]
 
 [ext_resource type="Texture2D" uid="uid://bfx378cd277uu" path="res://Manbo/Images/Visual/ManboAttack (1).png" id="1_ho0u1"]
 [ext_resource type="Texture2D" uid="uid://dkqytd10gt3hi" path="res://Manbo/Images/Visual/ManboAttack (2).png" id="2_7xd7q"]
@@ -23,6 +23,7 @@
 [ext_resource type="Texture2D" uid="uid://cyuq74l3seugp" path="res://Manbo/Images/Visual/ManboAttack (21).png" id="21_2epo5"]
 [ext_resource type="Texture2D" uid="uid://7wuesnsmhpsp" path="res://Manbo/Images/Visual/ManboAttack (22).png" id="22_xtxr5"]
 [ext_resource type="Texture2D" uid="uid://brgunek2uect0" path="res://Manbo/mod_image.png" id="23_ho0u1"]
+[ext_resource type="Texture2D" uid="uid://d24vc0ko2sno4" path="res://Manbo/Images/Cards/card.png" id="25_sxh03"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_2epo5"]
 animations = [{
@@ -98,6 +99,14 @@ animations = [{
 "speed": 24.0
 }, {
 "frames": [{
+"duration": 2.33,
+"texture": ExtResource("25_sxh03")
+}],
+"loop": false,
+"name": &"Dead",
+"speed": 1.0
+}, {
+"frames": [{
 "duration": 1.5,
 "texture": ExtResource("23_ho0u1")
 }],
@@ -121,7 +130,7 @@ metadata/_edit_group_ = true
 position = Vector2(-2, -173)
 scale = Vector2(0.2777778, 0.2777778)
 sprite_frames = SubResource("SpriteFrames_2epo5")
-animation = &"Attack"
+animation = &"Dead"
 autoplay = "Idle"
 
 [node name="Bounds" type="Control" parent="."]

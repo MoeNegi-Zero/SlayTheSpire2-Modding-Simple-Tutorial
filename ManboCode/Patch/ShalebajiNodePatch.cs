@@ -30,13 +30,13 @@ public static class ShalebajiNodePatch
 
 public static class ShalebajiNodeActivatePatch
 {
-    public static void Postfix(CombatState state)
-    {
+	public static void Postfix(CombatState state)
+	{
 		Player player = LocalContext.GetMe(state);
-        Log.Info(">>>[ManboMod]Character.Id is " + player.Character.Id.ToString());
-        if (player.Character.Id.ToString() == "CHARACTER.MOENEGIMOD-MANBO")
-        {
-            ShalebajiNodePatch.GetCachedShalebajiNode().Visible = true;
-        }
-    }
+		Log.Info(">>>[ManboMod]Character.Id is " + player.Character.Id.ToString());
+		if (player.Character.Id.ToString() == "CHARACTER.MOENEGIMOD-MANBO")
+		{
+			ShalebajiNodePatch.GetCachedShalebajiNode().Visible = true;
+		}
+	}
 }

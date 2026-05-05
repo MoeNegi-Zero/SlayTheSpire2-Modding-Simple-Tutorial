@@ -13,16 +13,16 @@ namespace MoeNegiMod.Manbo.Powers;
 
 public sealed class RellyPower : ManboPower
 {
-    public override PowerType Type => PowerType.Buff;
+	public override PowerType Type => PowerType.Buff;
 
-    public override PowerStackType StackType => PowerStackType.Counter;
+	public override PowerStackType StackType => PowerStackType.Counter;
 
-    public override Task AfterPowerAmountChanged(PowerModel power, decimal amount, Creature applier, CardModel cardSource)
-    {
-        if (power == this && applier == Owner)
-        {
-            ShalebajiNodePatch.GetCachedShalebajiNode().GetNodeOrNull<RichTextLabel>("ShalebajiValue").Text = Amount.ToString();
-        }
-        return Task.CompletedTask;
-    }
+	public override Task AfterPowerAmountChanged(PowerModel power, decimal amount, Creature applier, CardModel cardSource)
+	{
+		if (power == this && applier == Owner)
+		{
+			ShalebajiNodePatch.GetCachedShalebajiNode().GetNodeOrNull<RichTextLabel>("ShalebajiValue").Text = Amount.ToString();
+		}
+		return Task.CompletedTask;
+	}
 }
