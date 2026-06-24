@@ -49,7 +49,7 @@ public static class ManboAnimationPatch
 		var visual = node.GetNodeOrNull<Node2D>("Manbo");
 		if (visual == null) return;
 
-		var anim = visual.GetNodeOrNull<AnimatedSprite2D>("AnimatedSprite2D");
+		var anim = visual.GetNodeOrNull<AnimatedSprite2D>("%Visuals");
 		if (anim == null) return;
 
 		// 切换动画
@@ -72,7 +72,7 @@ public static class ManboGameOverPatch
 		var _creatureContainer = __instance.GetNodeOrNull<Control>("%CreatureContainer");
 		foreach(Node2D visual in _creatureContainer.GetChildren())
 		{
-			if (visual.Name.ToString().StartsWith("Manbo")) visual.GetNodeOrNull<AnimatedSprite2D>("AnimatedSprite2D").Play("Dead");
+			if (visual.Name.ToString().StartsWith("Manbo")) visual.GetNodeOrNull<AnimatedSprite2D>("%Visuals").Play("Dead");
 		}
 	}
 }

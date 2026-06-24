@@ -126,7 +126,8 @@ animations = [{
 [node name="Manbo" type="Node2D"]
 metadata/_edit_group_ = true
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+[node name="Visuals" type="AnimatedSprite2D" parent="."]
+unique_name_in_owner = true
 position = Vector2(-2, -173)
 scale = Vector2(0.2777778, 0.2777778)
 sprite_frames = SubResource("SpriteFrames_2epo5")

@@ -28,8 +28,8 @@ public class ManboRelly() : ManboCard(1,
 	{
 		if(ShouldGlowGoldInternal)
 		{
-            await PowerCmd.Apply<RellyPower>(Owner.Creature, -DynamicVars["RellyPower"].BaseValue, Owner.Creature, this);
-            await PowerCmd.Apply<StrengthPower>(Owner.Creature, DynamicVars.Strength.BaseValue, Owner.Creature, this);
+            await PowerCmd.Apply<RellyPower>(choiceContext,Owner.Creature, -DynamicVars["RellyPower"].BaseValue, Owner.Creature, this);
+            await PowerCmd.Apply<StrengthPower>(choiceContext,Owner.Creature, DynamicVars.Strength.BaseValue, Owner.Creature, this);
         }
 	}
 

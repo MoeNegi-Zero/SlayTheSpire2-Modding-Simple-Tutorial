@@ -1,6 +1,7 @@
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.Entities.Relics;
+using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MoeNegiMod.Manbo.Powers;
 using System;
 using System.Collections.Generic;
@@ -18,7 +19,7 @@ public class ManboToy : ManboRelics
     {
         if (creature == Owner.Creature && delta < 0)
         {
-            await PowerCmd.Apply<RellyPower>(Owner.Creature, 2m, Owner.Creature, null);
+            await PowerCmd.Apply<RellyPower>(new BlockingPlayerChoiceContext(),Owner.Creature, 2m, Owner.Creature, null);
         }
     }
 }

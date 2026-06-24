@@ -25,7 +25,7 @@ public class ManboPowerUp() : ManboCard(1,
 
 	protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
 	{
-		await PowerCmd.Apply<RellyPower>(Owner.Creature, DynamicVars["RellyPower"].BaseValue, Owner.Creature, this);
+		await PowerCmd.Apply<RellyPower>(choiceContext, Owner.Creature, DynamicVars["RellyPower"].BaseValue, Owner.Creature, this);
 	}
 
 	protected override void OnUpgrade()

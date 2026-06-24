@@ -17,7 +17,7 @@ public sealed class RellyPower : ManboPower
 
 	public override PowerStackType StackType => PowerStackType.Counter;
 
-	public override Task AfterPowerAmountChanged(PowerModel power, decimal amount, Creature applier, CardModel cardSource)
+	public override Task AfterPowerAmountChanged(PlayerChoiceContext choiceContext, PowerModel power, decimal amount, Creature applier, CardModel cardSource)
 	{
 		if (power == this && applier == Owner)
 		{
